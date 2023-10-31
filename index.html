@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="gigDashboard.css">
+    <script src="gigDashboard.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <title>SkillSparQ Gig Dashboard</title>
+    <title>SkillSparQ</title>
 </head>
 <body>
     <header>
@@ -102,7 +103,7 @@
             <h1>I will design clean & responsive wordpress website</h1>
             <div class="section-two-left-one">
                 <div class="section-two-left-left">
-                    <img src="Assets/proflle_icon.webp">
+                    <img class="gig-profile-image" src="Assets/proflle_icon.webp">
                 </div>
                 <div class="section-two-left-right">
                     <div class="section-two-left-right-one">
@@ -125,6 +126,68 @@
                             <h2 class="section-two-left-right-two-two-h-one">(191)</h2>
                             <h2 class="section-two-left-right-two-two-h-two"> | </h2>
                             <h2 class="section-two-left-right-two-two-h-three">22 Orders in Queue  </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-two-left-two">
+                <div class="container">
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 6</div>
+                        <img src="Assets/slide1.webp" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="Assets/slide2.webp" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="Assets/slide3.webp" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 6</div>
+                        <img src="Assets/slide4.webp" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 6</div>
+                        <img src="Assets/slide1.webp" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides">
+                        <div class="numbertext">6 / 6</div>
+                        <img src="Assets/slide1.webp" style="width:100%">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                    <div class="caption-container">
+                        <p id="caption"></p>
+                    </div>
+                
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="Assets/slide1.webp" style="width:100%" onclick="currentSlide(1)">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="Assets/slide2.webp" style="width:100%" onclick="currentSlide(2)">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="Assets/slide3.webp" style="width:100%" onclick="currentSlide(3)">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="Assets/slide4.webp" style="width:100%" onclick="currentSlide(4)">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="Assets/slide1.webp" style="width:100%" onclick="currentSlide(5)">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="Assets/slide1.webp" style="width:100%" onclick="currentSlide(6)">
                         </div>
                     </div>
                 </div>
