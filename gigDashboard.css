@@ -196,7 +196,7 @@ nav {
     margin-left: 120px;
     display: flex;
     flex-direction: row; 
-    gap: 250px;
+/*     gap: 250px; */
 }
 
 .section-two-left{
